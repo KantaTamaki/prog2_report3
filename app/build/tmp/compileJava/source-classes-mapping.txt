@@ -1,8 +1,0 @@
-jp/ac/uryukyu/ie/e205705/App.java
- jp.ac.uryukyu.ie.e205705.App
-Main.java
- Main
-jp/ac/uryukyu/ie/e205705/Hero.java
- jp.ac.uryukyu.ie.e205705.Hero
-jp/ac/uryukyu/ie/e205705/Enemy.java
- jp.ac.uryukyu.ie.e205705.Enemy
