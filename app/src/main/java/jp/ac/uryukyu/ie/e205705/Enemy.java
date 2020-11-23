@@ -115,7 +115,7 @@ public class Enemy {
     /**
      * フィールド変数deadのsetterメソッド。
      * 
-     * @param _name　フィールド変数deadに保存したい生死判定
+     * @param _dead　フィールド変数deadに保存したい生死判定
      */
     public void setdead(boolean _dead) {
         this.dead = _dead;
