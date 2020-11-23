@@ -31,11 +31,11 @@ public class Enemy {
      * @param hero 攻撃対象
      */
     public void attack(Hero hero) {
-        if(dead == false){
+        if (dead == false) {
             int damage = (int) (Math.random() * attack);
             System.out.printf("%sの攻撃！%sに%dのダメージを与えた！！\n", name, hero.getname(), damage);
             hero.wounded(damage);
-        }else{
+        } else {
             int damage = 0;
             System.out.printf("%sの攻撃！%sに%dのダメージを与えた！！\n", name, hero.getname(), damage);
             hero.wounded(damage);
@@ -56,35 +56,68 @@ public class Enemy {
         }
     }
 
-    public String getname(){
+    /**
+     * フィールド変数nameのgetterメソッド。
+     * 
+     * @return this.name enemyの名前
+     */
+    public String getname() {
         return this.name;
     }
-
-    public int gethitPoint(){
+    /**
+     * フィールド変数hitPointのgetterメソッド。
+     * 
+     * @return this.hitPoint enemyの体力
+     */
+    public int gethitPoint() {
         return this.hitPoint;
     }
-
-    public int getattack(){
+    /**
+     * フィールド変数attackのgetterメソッド。
+     * 
+     * @return this.attack enemyの攻撃力
+     */
+    public int getattack() {
         return this.attack;
     }
-
-    public boolean getdead(){
+    /**
+     * フィールド変数deadのgetterメソッド。
+     * 
+     * @return this.dead enemyの生死判定
+     */
+    public boolean getdead() {
         return this.dead;
     }
-
-    public void setname(String _name){
+    /**
+     * フィールド変数nameのsetterメソッド。
+     * 
+     * @param _name　フィールド変数nameに保存したい名前
+     */
+    public void setname(String _name) {
         this.name = _name;
     }
-
-    public void sethitPoint(int _hitPoint){
+    /**
+     * フィールド変数hitPointのsetterメソッド。
+     * 
+     * @param _hitPoint　フィールド変数hitPointに保存したい体力の数値
+     */
+    public void sethitPoint(int _hitPoint) {
         this.hitPoint = _hitPoint;
     }
-
-    public void setattack(int _attack){
+    /**
+     * フィールド変数attackのsetterメソッド。
+     * 
+     * @param _attack　フィールド変数attackに保存したい攻撃力の数値
+     */
+    public void setattack(int _attack) {
         this.attack = _attack;
     }
-
-    public void setdead(boolean _dead){
+    /**
+     * フィールド変数deadのsetterメソッド。
+     * 
+     * @param _name　フィールド変数deadに保存したい生死判定
+     */
+    public void setdead(boolean _dead) {
         this.dead = _dead;
     }
 
