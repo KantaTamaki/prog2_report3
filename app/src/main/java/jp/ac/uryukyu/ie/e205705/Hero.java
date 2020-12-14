@@ -34,59 +34,11 @@ public class Hero extends LivingThing{
             System.out.printf("勇者%sは道半ばで力尽きてしまった。\n", name);
         }
     }
-
-    
-
-    
-
-    
-    /**
-     * フィールド変数hitPointのgetterメソッド。
-     * 
-     * @return this.hitPoint heroの体力
-     */
-    public int gethitPoint() {
-        return this.hitPoint;
-    }
-    /**
-     * フィールド変数attackのgetterメソッド。
-     * 
-     * @return this.attack heroの攻撃力
-     */
-    public int getattack() {
-        return this.attack;
-    }
-    
-    /**
-     * フィールド変数nameのsetterメソッド。
-     * 
-     * @param _name　フィールド変数nameに保存したい名前
-     */
-    public void setname(String _name) {
-        this.name = _name;
-    }
-    /**
-     * フィールド変数hitPointのsetterメソッド。
-     * 
-     * @param _hitPoint　フィールド変数hitPointに保存したい体力の数値
-     */
-    public void sethitPoint(int _hitPoint) {
-        this.hitPoint = _hitPoint;
-    }
-    /**
-     * フィールド変数attackのsetterメソッド。
-     * 
-     * @param _attack　フィールド変数attackに保存したい攻撃力の数値
-     */
-    public void setattack(int _attack) {
-        this.attack = _attack;
-    }
-    /**
-     * フィールド変数deadのsetterメソッド。
-     * 
-     * @param _dead　フィールド変数deadに保存したい生死判定
-     */
-    public void setdead(boolean _dead) {
-        this.dead = _dead;
-    }
 }
+
+    
+
+    
+
+    
+    

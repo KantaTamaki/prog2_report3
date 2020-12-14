@@ -13,7 +13,7 @@ class WarriorTest {
             warrior.attackWithWeponSkill(slime);
         }
         
-        assertEquals(0, slime.gethitPoint());
+        assertEquals(0, slime.hitPoint);
     }
     
 }
